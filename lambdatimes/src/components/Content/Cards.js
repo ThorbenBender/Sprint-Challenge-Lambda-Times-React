@@ -1,4 +1,4 @@
-import React, { Component } from 'react';+
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Card from './Card';
 
@@ -12,7 +12,7 @@ const Cards = props => {
     </div>
   )
 }
-Cards.PropTypes = {
+Cards.propTypes = {
   cards: PropTypes.arrayOf(PropTypes.object)
 }
 
